@@ -1,0 +1,23 @@
+
+package pkg2Âºinformatica;
+
+import java.util.Scanner;
+
+public class atividade2408 {
+        public static void main(String[] args) {
+Scanner entrada = new Scanner (System.in);
+
+   int carros = 0;
+   double money = 0;
+   
+   System.out.println("quantos carros vocÃª vendeu");
+   carros = entrada.nextInt();
+   if (carros < 5 ){
+   money = carros * 800.00;
+   }
+   if (carros > 5){
+       money = carros * 2000.00;
+   }
+            System.out.println("toma aqui seu troco "+money+" dinheiros.");
+    }
+}
